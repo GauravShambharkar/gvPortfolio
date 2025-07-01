@@ -48,17 +48,20 @@ function App() {
           <h1 className="border text-center font-bold text-9xl text-[#FF0000] tracking-tighter ">
             MYSELF GAURAV,
           </h1>
-          <div className="border w-full  text-left">
-            <p className="w-fit px-3 ml-45 leading-none text-[#676767]">
-              I am a{" "}
-              <span className="text-[#000000] font-light">
-                FrontEnd Developer
-              </span>{" "}
-              passionate about crafting dynamic and user-centric web apps. <br /> With
-              experience in modern technologies, I thrive on building scalable
-              and intuitive web solutions. <br /> I embrace challenges as opportunities
-              to learn and grow as a developer.
-            </p>
+          <div className="border w-full flex justify-center text-left">
+          {/* parag */}
+            <div className=" border w-[71%]">
+              <p className="w-fit leading-none text-[#676767]">
+                I am a{" "}
+                <span className="text-[#000000] font-light">
+                  FrontEnd Developer
+                </span>{" "}
+                passionate about crafting dynamic and user-centric web apps.{" "}
+                <br /> With experience in modern technologies, I thrive on
+                building scalable and intuitive web solutions. <br /> I embrace
+                challenges as opportunities to learn and grow as a developer.
+              </p>
+            </div>
           </div>
         </div>
 
