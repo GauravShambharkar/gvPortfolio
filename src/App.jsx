@@ -45,12 +45,12 @@ function App() {
       <div className="section w-full h-screen bg-[#CBCBCB] ">
         {/* //header */}
         <div className="header w-[95%] border mx-auto  ">
-          <h1 className="border text-center font-bold text-9xl text-[#FF0000] tracking-tighter ">
+          <h1 className=" text-center font-bold text-9xl text-[#FF0000] tracking-tighter ">
             MYSELF GAURAV,
           </h1>
-          <div className="border w-full flex justify-center text-left">
-          {/* parag */}
-            <div className=" border w-[71%]">
+          <div className=" w-full flex justify-center text-left">
+            {/* parag */}
+            <div className="  w-[71%]">
               <p className="w-fit leading-none text-[#676767]">
                 I am a{" "}
                 <span className="text-[#000000] font-light">
@@ -68,8 +68,9 @@ function App() {
         {/* middle section */}
 
         <div className="header w-[95%] mt-1 border mx-auto flex">
-          <div className="MenuContainer flex border justify-between  w-full">
-            <div className="LeftMenues tracking-tighter z-10 fixed top-80 leading-none border flex flex-col justify-center font-bold text-white  ">
+          <div className="MenuContainer border flex justify-between items-center w-full h-fit">
+            {/* left nav ELements */}
+            <div className="LeftMenues border tracking-tighter z-10 fixed top-80 leading-none  flex flex-col justify-center font-bold text-white  ">
               <h4 className="text-[#FF0000] ">HOME</h4>
               <h4>ABOUT ME</h4>
               <h4>SKILLS</h4>
@@ -77,25 +78,30 @@ function App() {
               <h4>RESUME</h4>
               <h4>EDUCATION</h4>
             </div>
+            {/* img */}
             <div className="middle_Img w-90 border flex items-center justify-center mx-auto">
-              {/* <div className="flex justify-center items-center">
-                <div className="blurDot size-40 rounded-full blur-3xl text-[#FF0000] absolute bg-[#FF0000]">
+              <div className="flex justify-center absolute items-center">
+                <div className="blurDot size-120 -z-0 rounded-full blur-3xl text-[#FF0000] absolute bg-[#FF0000]/70">
                   .
                 </div>
-              </div> */}
+              </div>
+        
               <img
-                className="bg-cover"
-                src="https://i.pinimg.com/736x/ac/cf/4f/accf4fb26b472f897d24cb8131d6438f.jpg"
+                className="w-85 object-fill z-10 "
+                src="./src/ps-bg-removed.png"
                 alt=""
               />
             </div>
-            <div className="RightMenues font-bold fixed top-85 z-10 right-9 text-white leading-none border flex flex-col justify-center text-right">
+
+            {/* right nav ELements */}
+            <div className="RightMenues border font-bold fixed top-85 z-10 right-9 text-white leading-none  flex flex-col justify-center text-right">
               <h4 className="text-[#FF0000]">GIT-HUB</h4>
               <h4>X</h4>
               <h4>LINKEDIN</h4>
             </div>
           </div>
         </div>
+
       </div>
 
       {/* about section */}
