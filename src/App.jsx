@@ -45,13 +45,13 @@ function App() {
       <div className="section w-full h-screen bg-[#CBCBCB] ">
         {/* //header */}
         <div className="header w-[95%] border mx-auto  ">
-          <h1 className=" text-center font-bold text-9xl text-[#FF0000] tracking-tighter ">
+          <h1 className=" text-center font-extrabold text-9xl text-[#FF0000] tracking-tighter ">
             MYSELF GAURAV,
           </h1>
-          <div className=" w-full flex justify-center text-left">
-            {/* parag */}
-            <div className="  w-[71%]">
-              <p className="w-fit leading-none text-[#676767]">
+          <div className="w-full flex justify-center text-left  ">
+            {/* paragraph */}
+            <div className="w-[71%] pl-13">
+              <p className="w-fit leading-none  text-[#676767]">
                 I am a{" "}
                 <span className="text-[#000000] font-light">
                   FrontEnd Developer
@@ -85,9 +85,9 @@ function App() {
                   .
                 </div>
               </div>
-        
+
               <img
-                className="w-85 object-fill z-10 "
+                className="w-89 object-fill z-10 "
                 src="./src/ps-bg-removed.png"
                 alt=""
               />
@@ -101,19 +101,18 @@ function App() {
             </div>
           </div>
         </div>
-
       </div>
 
       {/* about section */}
       <div className="w-[95%] mx-auto border h-screen ">
-        <h1 className="text-9xl border font-bold absolute top-168 text-[#FF0000] tracking-tighter">
+        <h1 className="text-9xl border font-bold absolute top-185 text-[#FF0000] tracking-tighter">
           ABOUT
         </h1>
       </div>
 
       {/* skills section */}
       <div className="w-[95%] mx-auto border h-screen ">
-        <h1 className="text-9xl border font-bold absolute top-333 right-9 text-[#FF0000] tracking-tighter">
+        <h1 className="text-9xl border font-bold absolute top-370 right-9 text-[#FF0000] tracking-tighter">
           SKILLS
         </h1>
       </div>
