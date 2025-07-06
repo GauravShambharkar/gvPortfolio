@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "./AboutMe";
 
 const Home = () => {
   return (
@@ -8,16 +9,16 @@ const Home = () => {
           <h1 className=" text-center text-9xl font-extrabold text-[#FF0000] tracking-tighter ">
             MYSELF GAURAV,
           </h1>
-          <div className="paraContainer  flex justify-center ">
-            <p className="w-[71%]  leading-none text-[#676767]">
+          <div className="paraContainer border flex  ">
+            <p className="w-[50%] border leading-none ml-50 text-[#676767]">
               I am a{" "}
               <span className="text-[#000000] font-light">
                 FrontEnd Developer
               </span>{" "}
-              passionate about crafting dynamic and user-centric web apps.{" "}
-              <br /> With experience in modern technologies, I thrive on
-              building scalable and intuitive web solutions. <br /> I embrace
-              challenges as opportunities to learn and grow as a developer.
+              a passionate and creative with my craft gets curious about
+              everything that gets my attention I thrive on implimenting the
+              ideas. I embrace challenges as opportunities to learn and grow as
+              a developer.
             </p>
           </div>
           <div className="buttonContainer flex justify-center py-2">

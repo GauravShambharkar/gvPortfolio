@@ -7,7 +7,7 @@ const AboutMe = () => {
         <h1 className="text-left  text-8xl font-extrabold absolute top-1 text-[#FF0000] tracking-tighter ">
           ABOUT ME,
         </h1>
-        <div className=" w-[97%] mx-auto h-[95%]  ">
+        <div className=" w-[87%] border mx-auto h-[75%]  ">
           <h2>hellow this is an about page</h2>
         </div>
       </div>
