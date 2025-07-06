@@ -5,16 +5,23 @@ import Home from "./Components/Home";
 import RecentWork from "./Components/RecentWork";
 import Resume from "./Components/Resume";
 import Skills from "./Components/Skills";
+import { ReactLenis, useLenis } from "lenis/react";
 
 function App() {
+  const lenis = useLenis((lenis) => {
+    // called every scroll
+    console.log(lenis);
+  });
+
   return (
     <>
+      <ReactLenis root />
       <Home />
       <AboutMe />
-      <Skills/>
-      <RecentWork/>
-      <Resume/>
-      <Education/>
+      <Skills />
+      <RecentWork />
+      <Resume />
+      <Education />
     </>
   );
 }
