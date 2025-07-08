@@ -1,5 +1,4 @@
-import React from "react";
-import AboutMe from "./AboutMe";
+import React, { useRef } from "react";
 
 const Home = () => {
   return (
@@ -31,24 +30,24 @@ const Home = () => {
         </div>
         <div className="navContainer flex  justify-between items-center -red-600">
           <div className="leftSide w-fit fixed h-fit z-10  top-80 leading-none flex flex-col gap-0.5  text-white tracking-tighter font-bold  ">
-            <h4 className="hover:text-[#FF0000] transition ease-in-out duration-300  cursor-pointer w-fit">
+            <a className="hover:text-[#FF0000] transition ease-in-out duration-300  cursor-pointer w-fit">
               HOME
-            </h4>
-            <h4 className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               ABOUT ME
-            </h4>
-            <h4 className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               SKILLS
-            </h4>
-            <h4 className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               RECENT WORK
-            </h4>
-            <h4 className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               RESUME
-            </h4>
-            <h4 className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer  w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               EDUCATION
-            </h4>
+            </a>
           </div>
           <div className="center flex w-full justify-center">
             <div className="middle z-10 w-75">
@@ -60,18 +59,18 @@ const Home = () => {
           </div>
 
           <div className="rightSide flex flex-col items-end gap-0.5 w-fit fixed right-9 z-10 h-fit top-85 leading-none text-white tracking-tighter font-bold ">
-            <h4 className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            <a className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               GIT-HUB
-            </h4>
-            <h4 className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               LINKEDIN
-            </h4>
-            <h4 className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               X
-            </h4>
-            <h4 className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
+            </a>
+            <a className="cursor-pointer w-fit hover:text-[#FF0000] transition ease-in-out duration-300 ">
               EMAIL
-            </h4>
+            </a>
           </div>
         </div>
       </div>
