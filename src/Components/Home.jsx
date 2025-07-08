@@ -3,15 +3,20 @@ import React, { useRef } from "react";
 const Home = () => {
   return (
     <>
-      <div className="w-[95%] border  mx-auto bg-[#CBCBCB]">
-        <div className="headerContainer  ">
-          <h1 className=" text-center text-9xl font-extrabold text-[#FF0000] tracking-tighter ">
+      <div className="w-[95%] border mx-auto relative ">
+        
+        <div className="w-[1425px] h-[1324px] absolute -z-10 ">
+          <div className="fixed w-[1425px] h-[1324px] bg-blend-luminosity mx-auto left-0 right-0 -top-200 bg-[black] rounded-full" />
+        </div>
+
+        <div className="headerContainer ">
+          <h1 className="text-center text-9xl font-extrabold bg-blend-color-burn z-10 text-[#ffffff] tracking-tighter ">
             MYSELF GAURAV,
           </h1>
           <div className="paraContainer border flex  ">
-            <p className="w-[50%] border leading-none ml-50 text-[#676767]">
+            <p className="w-[50%] border leading-none ml-50 z-10 text-[#b4b4b4]">
               I am a{" "}
-              <span className="text-[#000000] font-light">
+              <span className="text-[#ffffff] font-light">
                 FrontEnd Developer
               </span>{" "}
               a passionate and creative with my craft gets curious about
@@ -22,7 +27,7 @@ const Home = () => {
           </div>
           <div className="buttonContainer flex justify-center py-2">
             <div className="w-[71%]  ">
-              <button className="tracking-tighter animate-pulse cursor-pointer w-fit font-bold text-[#FF0000] shadow-red-500/50  shadow-lg bg-[white] rounded-lg  px-3 py-1">
+              <button className="tracking-tighter animate-pulse cursor-pointer w-fit font-bold text-[#000000] shadow-white/50  shadow-lg bg-[white] rounded-lg  px-3 py-1">
                 Ready For Work
               </button>
             </div>
