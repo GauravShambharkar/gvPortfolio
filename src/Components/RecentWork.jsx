@@ -42,10 +42,10 @@ const RecentWork = () => {
                   rel="noopener noreferrer"
                   className="hover:scale-110 transition-transform duration-300"
                 > */}
-                  {/* <RiRfidLine className="size-10 text-white bg-[#00000080] rounded-full p-2" /> */}
+                {/* <RiRfidLine className="size-10 text-white bg-[#00000080] rounded-full p-2" /> */}
                 {/* </a> */}
               </div>
-              <div className="absolute flex w-fit inset-0 p-10 justify-center flex-col  gap-1 ">
+              <div className="absolute flex border w-fit h-fit max-sm:w-full lg:top-0 p-10 max-sm:p-2 max-sm:justify-start flex-col max-sm:flex-row flex-wrap gap-1 max-sm:h-fit max-sm:bottom-0 max-sm:right-0 ">
                 {[
                   "HTML5",
                   "CSS",
@@ -61,7 +61,7 @@ const RecentWork = () => {
                     <>
                       <h3
                         key={id}
-                        className="text-[#ffffff] inset-0 flex justify-center w-fit bg-[#ffffff2e] backdrop-blur-lg hover:underline  px-2 text-[12px]  items-center cursor-pointer h-6 hover:text-[white] hover:bg-[#ffffff7e] rounded-md transition ease-in-out duration-500"
+                        className="text-[#ffffff] border border-white/40  flex justify-center w-fit bg-[#ffffff2e] backdrop-blur-lg hover:underline  px-2 text-[12px]  items-center cursor-pointer h-6 hover:text-[white] hover:bg-[#ffffff7e] rounded-md transition ease-in-out duration-500"
                       >
                         {item}
                       </h3>
