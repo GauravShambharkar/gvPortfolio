@@ -7,7 +7,7 @@ const Education = () => {
         id="EDUCATION"
         className="w-[95%] h-[75%] border flex  relative mx-auto"
       >
-        <h1 className="text-left border text-8xl font-extrabold absolute -top-22 text-[#FF0000] tracking-tighter ">
+        <h1 className="text-left border text-8xl font-extrabold absolute -top-22 text-[#FF0000] tracking-tighter max-sm:text-5xl">
           EDUCATION,
         </h1>
         <div className=" w-[87%] border mx-auto h-[75%]  ">

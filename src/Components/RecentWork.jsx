@@ -5,11 +5,11 @@ const RecentWork = () => {
   return (
     <>
       <div className="w-[95%] border flex items-center relative mx-auto">
-        <h1 className="text-left  text-8xl border font-extrabold absolute -top-13 text-[#FF0000] tracking-tighter ">
+        <h1 className="text-left  text-8xl border font-extrabold absolute -top-13 text-[#FF0000] tracking-tighter max-sm:text-5xl ">
           RECENT WORK,
         </h1>
         {/* container */}
-        <div className="w-[87%] h-[40rem] border grid grid-cols-[7fr_3fr] grid-rows-2 items-center mx-auto my-9 gap-2">
+        <div className="w-[87%] h-[40rem] border grid grid-cols-[7fr_3fr] grid-rows-2 items-center mx-auto my-9 gap-2 max-sm:grid-cols-1 max-sm:grid-rows-[] max-sm:h-max ">
           {/* LearnLift Section - spans both rows on left (70%) */}
           <div className="w-full h-full pt-2 pl-2 pr-2 border row-span-2 flex flex-col group hover:brightness-70 ease-in-out transition-all duration-300">
             <h2 className="text-xl font-medium">
@@ -24,7 +24,7 @@ const RecentWork = () => {
               />
 
               {/* GitHub icon overlay */}
-              <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-sm:opacity-100 ">
                 {/* GitHub Icon */}
                 <a
                   href="https://github.com/GauravShambharkar/LearnLift"
@@ -73,7 +73,7 @@ const RecentWork = () => {
           </div>
 
           {/* Ecom Store - top right */}
-          <div className="w-full h-full pt-2 pl-2 pr-2 border flex flex-col group hover:brightness-70 ease-in-out transition-all duration-300">
+          <div className="w-full h-full pt-2 pl-2 pr-2 border flex flex-col group hover:brightness-70 ease-in-out transition-all duration-300  ">
             <h2 className="text-xl font-medium">Ecom Store</h2>
 
             <div className="size-full relative ">
@@ -84,7 +84,7 @@ const RecentWork = () => {
               />
 
               {/* GitHub icon overlay */}
-              <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-sm:opacity-100 ">
                 {/* GitHub Icon */}
                 <a
                   href="https://github.com/GauravShambharkar/E-Com_Shop"
@@ -120,7 +120,7 @@ const RecentWork = () => {
               />
 
               {/* Hover Icon Overlay */}
-              <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-sm:opacity-100">
                 {/* GitHub Icon */}
                 <a
                   href="https://github.com/GauravShambharkar/Movies-Streaming-App"

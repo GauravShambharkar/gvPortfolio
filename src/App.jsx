@@ -16,6 +16,7 @@ function App() {
 
   return (
     <>
+    
       <RemoveScrollBar/>
       <ReactLenis root />
       <Home />
