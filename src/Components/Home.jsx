@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="navContainer flex border justify-between items-center max-[430px]:h-112 ">
+        <div className="navContainer flex border justify-between items-center max-[430px]:h-120 ">
           <div className="leftSide w-fit fixed h-fit z-10  top-80 leading-none flex flex-col gap-0.5  text-white tracking-tighter font-bold max-sm:hidden  ">
             <a className="hover:text-[#FF0000] transition ease-in-out duration-300  cursor-pointer w-fit">
               HOME
