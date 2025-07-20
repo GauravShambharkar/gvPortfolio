@@ -11,7 +11,7 @@ const RecentWork = () => {
         {/* container */}
         <div className="w-[87%] h-[40rem] border grid grid-cols-[7fr_3fr] grid-rows-2 items-center mx-auto my-9 gap-2 max-sm:grid-cols-1 max-sm:grid-rows-[] max-sm:h-max ">
           {/* LearnLift Section - spans both rows on left (70%) */}
-          <div className="w-full h-full pt-2 pl-2 pr-2 border row-span-2 flex flex-col group hover:brightness-70 ease-in-out transition-all duration-300">
+          <div className="w-full h-full pt-2 pl-2 pr-2 border row-span-2 flex flex-col group  ease-in-out transition-all duration-300">
             <h2 className="text-xl font-medium">
               LearnLift - Explore your learning path
             </h2>
@@ -73,7 +73,7 @@ const RecentWork = () => {
           </div>
 
           {/* Ecom Store - top right */}
-          <div className="w-full h-full pt-2 pl-2 pr-2 border flex flex-col group hover:brightness-70 ease-in-out transition-all duration-300  ">
+          <div className="w-full h-full pt-2 pl-2 pr-2 border flex flex-col group  ease-in-out transition-all duration-300  ">
             <h2 className="text-xl font-medium">Ecom Store</h2>
 
             <div className="size-full relative ">
@@ -109,7 +109,7 @@ const RecentWork = () => {
           </div>
 
           {/* Movies Platform - bottom right */}
-          <div className="w-full h-full pt-2 pl-2 pr-2 border flex flex-col group hover:brightness-70 ease-in-out transition-all duration-300">
+          <div className="w-full h-full pt-2 pl-2 pr-2 border flex flex-col group  ease-in-out transition-all duration-300">
             <h2 className="text-xl font-medium">Movies exploration platform</h2>
 
             <div className="size-full relative mt-2">
