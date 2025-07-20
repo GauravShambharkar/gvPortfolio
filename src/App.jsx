@@ -6,7 +6,7 @@ import RecentWork from "./Components/RecentWork";
 import Resume from "./Components/Resume";
 import Skills from "./Components/Skills";
 import { ReactLenis, useLenis } from "lenis/react";
-import { RemoveScrollBar } from "react-remove-scroll-bar";
+// import { RemoveScrollBar } from "react-remove-scroll-bar";
 
 function App() {
   const lenis = useLenis((lenis) => {
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     
-      <RemoveScrollBar/>
+      {/* <RemoveScrollBar/> */}
       <ReactLenis root />
       <Home />
       <AboutMe />

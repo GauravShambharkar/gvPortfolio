@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 const Home = () => {
   return (
     <>
-      <div className="w-[95%] border mx-auto relative  overflow-hidden ">
+      <div className="w-[95%] border mx-auto relative ">
         {/* <div className="w-[1425px] h-[1324px] absolute -z-10 ">
           <div className="fixed w-[1425px] h-[1324px] bg-blend-luminosity mx-auto left-0 right-0 -top-200 bg-[black] rounded-full" />
         </div> */}
@@ -56,8 +56,8 @@ const Home = () => {
             </a>
           </div>
           <div className="center flex w-full justify-center">
-            <div className="middle z-10 w-75 max-sm:w-60  ">
-              <img className="" src="./src/ps-bg-removed.png" alt="" />
+            <div className="middle z-10 w-[300px] max-sm:w-[200px]  ">
+              <img className="" src="./ps-bg-removed.png" alt="" />
             </div>
             <div className="blurDot size-120 -z-0 rounded-full blur-3xl text-[#FF0000] absolute bg-black/40 max-sm:size-60">
               O
