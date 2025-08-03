@@ -74,7 +74,7 @@ const RecentWork = () => {
 
           {/* Ecom Store - top right */}
           <div className="w-full h-full pt-2 pl-2 pr-2 border flex flex-col group  ease-in-out transition-all duration-300  ">
-            <h2 className="text-xl font-medium">Ecom Store</h2>
+            <h2 className="text-xl font-medium">Backend Directory Generator</h2>
 
             <div className="size-full relative ">
               <img
@@ -87,7 +87,7 @@ const RecentWork = () => {
               <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-sm:opacity-100 ">
                 {/* GitHub Icon */}
                 <a
-                  href="https://github.com/GauravShambharkar/E-Com_Shop"
+                  href="https://github.com/GauravShambharkar/NEM-Backend-Directory-Generator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:scale-110 transition-transform duration-300"
@@ -96,14 +96,14 @@ const RecentWork = () => {
                 </a>
 
                 {/* Live Preview Icon (RFID) */}
-                <a
+                {/* <a
                   href="https://e-com-shop-eight.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:scale-110 transition-transform duration-300"
                 >
                   <RiRfidLine className="size-10 text-white bg-[#00000080] rounded-full p-2" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

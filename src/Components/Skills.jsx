@@ -41,6 +41,7 @@ const Skills = () => {
                   >
                     {item}
                     <div className="size-1 animate-ping absolute bg-red-500 top-0 right-0 rounded-full text-[#FF0000]"></div>
+                    <div className="size-1 absolute bg-red-500 top-0 right-0 rounded-full text-[#FF0000]"></div>
                   </h3>
                 </>
               );
