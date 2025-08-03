@@ -9,7 +9,7 @@ const Home = () => {
         </div> */}
 
         <div className="headerContainer mx-auto ">
-          <h1 className="text-center text-9xl font-extrabold bg-blend-color-burn z-10 text-[#FF0000] tracking-tighter max-sm:text-5xl ">
+          <h1 className="text-center text-9xl font-extrabold bg-blend-color-burn z-10 text-[#ca2f2f] tracking-tighter max-sm:text-5xl ">
             MYSELF GAURAV,
           </h1>
           <div className="paraContainer border flex  ">

@@ -61,7 +61,7 @@ const RecentWork = () => {
                     <>
                       <h3
                         key={id}
-                        className="text-[#ffffff] border border-white/40  flex justify-center w-fit bg-[#ffffff2e] backdrop-blur-lg hover:underline  px-2 text-[12px]  items-center cursor-pointer h-6 hover:text-[white] hover:bg-[#ffffff7e] rounded-md transition ease-in-out duration-500"
+                        className="text-[#ffffff] border border-white/40  flex justify-center w-fit bg-[#ffffff2e] backdrop-blur-lg hover:underline  px-2 text-[12px] max-sm:text-[10px]  items-center cursor-pointer h-6 max-sm:h-5 hover:text-[white] hover:bg-[#ffffff7e] rounded-md transition ease-in-out duration-500"
                       >
                         {item}
                       </h3>
