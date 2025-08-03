@@ -1,5 +1,6 @@
 import React from "react";
 import { RiRfidLine, RiGithubFill } from "react-icons/ri";
+import { motion } from "motion/react";
 
 const RecentWork = () => {
   return (
